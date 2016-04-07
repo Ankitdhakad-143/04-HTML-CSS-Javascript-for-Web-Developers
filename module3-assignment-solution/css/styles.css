@@ -1,3 +1,9 @@
+/* .navbar-custom {
+    color: yellow;
+}
+ */
+
+
 .navbar-brand {
     font-size: 2em;
 }
@@ -11,8 +17,7 @@
     color: black;
     text-align: center;
     font-size: 1.3em;
-/*     background-color: lightgray; */
-border: 0.1px solid;
+    border: 0.1px solid;
 }
 
 #nav-list a:hover {
@@ -32,7 +37,7 @@ div#section {
     font-family: Helvetica;
     color: black;
     border: 2px solid black;
-    margin-bottom:45px ;
+    margin-bottom: 45px;
 }
 
 #content {
@@ -43,4 +48,14 @@ div#section {
 span {
     font-size: 1.25 em;
     text-align: center;
+}
+
+.navbar-toggle:hover span,
+.navbar-toggle:focus span {
+    border: 1px solid black;
+}
+
+#toggle-button:hover,
+#toggle-button:focus {
+    border: 2px solid black;
 }
