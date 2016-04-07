@@ -39,17 +39,12 @@ div#section {
     padding: 0 5px 0 5px;
 }
 
-.navbar-toggle span,
-.navbar-toggle span {
-    border: 1px solid lightgray;
-}
-
 .navbar-toggle:hover span,
 .navbar-toggle:focus span {
     border: 1px solid black;
 }
 
-#toggle-button:hover,
-#toggle-button:focus {
-    border: 2px solid black;
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    border: 1px solid black;
 }
