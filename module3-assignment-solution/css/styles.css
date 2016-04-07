@@ -50,6 +50,10 @@ span {
     text-align: center;
 }
 
+.navbar-toggle span,
+.navbar-toggle span {
+    border: 1px solid lightgray;
+}
 .navbar-toggle:hover span,
 .navbar-toggle:focus span {
     border: 1px solid black;
